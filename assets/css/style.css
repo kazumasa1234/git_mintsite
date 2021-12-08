@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #0f394c;
 }
 #header .logo img {
-  max-height: 80px;
+  max-height: 56px;
 }
 
 /*--------------------------------------------------------------
@@ -1386,6 +1386,32 @@ section {
 .foot-img .foot-textbox p{
   font-size: 1em;
 }
+.plofile {
+  height: 100vh; /* 全画面表示 */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../img/plofile.png);
+  position: relative;
+}
+.plofile .textbox{
+  position: absolute;
+  /* top: 30%;
+  left: 50%; */
+  padding-right: 1.5em;
+}
+.plofile .textbox h1{
+  color:#fff;
+  font-size: 2.5em;
+}
+.plofile .textbox p{
+  color:#fff;
+  font-size: 1.5em;
+}
+
+
+
+/* レスポンシブ */
 @media (max-width: 768px) {
   .foot-img .foot-textbox h3{
     font-size: 1.2em;
@@ -1421,3 +1447,29 @@ section {
     font-size: 1em;
   }
 }
+
+
+/* 概要テーブル */
+.kaisha {
+  width: 100%;
+  }
+  
+  .kaisha th,
+  .kaisha td {
+  /* border: 1px solid #ccc; */
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  }
+  
+  .kaisha th {
+  font-weight: bold;
+  /* background-color: #dedede;  */
+  }
+  
+  @media screen and (max-width: 767px) {
+  .kaisha,
+  .kaisha tr,
+  .kaisha td,
+  .kaisha th {display:block;}
+  .kaisha th {width:auto;}
+  }
