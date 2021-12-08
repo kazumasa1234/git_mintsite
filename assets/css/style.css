@@ -1330,7 +1330,7 @@ section {
 .hero .textbox{
   position: absolute;
   top: 30%;
-  left: 45%;
+  left: 50%;
   padding-right: 1.5em;
 }
 .hero .textbox h1{
@@ -1388,12 +1388,12 @@ section {
 }
 @media (max-width: 768px) {
   .foot-img .foot-textbox h3{
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 @media (max-width: 768px) {
   .foot-img .foot-textbox p{
-    font-size: 0.5em;
+    font-size: 1em;
   }
 }
 @media (max-width: 768px) {
