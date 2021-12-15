@@ -1391,7 +1391,9 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../img/plofile.png);
+ 
+  background: linear-gradient(#00b478 , #00373f);
+  opacity: 0.9;
   position: relative;
 }
 .plofile .textbox{
@@ -1473,3 +1475,9 @@ section {
   .kaisha th {display:block;}
   .kaisha th {width:auto;}
   }
+
+  /* 制作実績追加 */
+  .bg-color{
+    background-color: #82DC8C;
+    background: rgba(130,220,140,0.2);
+  };
