@@ -1320,7 +1320,10 @@ section {
 
 /* tuika */
 .hero {
-  height: 100vh; /* 全画面表示 */
+  /* この下ヘッダー含めずvh100にするやり方 */
+  /* margin-top: 65px;
+  height: calc(100vh - 65px); */
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1386,14 +1389,26 @@ section {
 .foot-img .foot-textbox p{
   font-size: 1em;
 }
+.works {
+  height: 100vh; /* 全画面表示 */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+ 
+  /* background: linear-gradient(#00b478 , #00373f); */
+  background: rgb(29,79,86);
+  background: linear-gradient(0deg, rgba(29,79,86,1) 0%, rgba(219,245,236,1) 50%, rgba(219,245,236,1) 100%);
+
+  opacity: 0.9;
+  position: relative;
+}
 .plofile {
   height: 100vh; /* 全画面表示 */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
- 
-  background: linear-gradient(#00b478 , #00373f);
-  opacity: 0.9;
+  background-image: url(../img/plofile.png);
+  /* opacity: 0.9; */
   position: relative;
 }
 .plofile .textbox{
@@ -1478,6 +1493,35 @@ section {
 
   /* 制作実績追加 */
   .bg-color{
-    background-color: #82DC8C;
-    background: rgba(130,220,140,0.2);
-  };
+    background-color: #F8FCF9;
+  }
+  /* Q-A */
+  .qa-img{
+    height: 100vh; /* 全画面表示 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/q-a.png);
+    /* opacity: 0.9; */
+    position: relative;
+    
+  }
+  .qa-text-center {
+    height: 100vh; /* 全画面表示 */
+    position: relative;
+  }
+  /* コンタクト */
+  .contact-img{
+    height: 100vh; /* 全画面表示 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/contact.png);
+    /* opacity: 0.9; */
+    position: relative;
+    
+  }
+  .contact-text-center {
+    height: 100vh; /* 全画面表示 */
+    position: relative;
+  }
