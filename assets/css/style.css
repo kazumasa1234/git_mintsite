@@ -49,8 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6dc4ec;
-  background: red;
+  background: #82DC8C;
   color: #fff;
 }
 .back-to-top.active {
@@ -123,8 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  /* color: #49b5e7; */
-  color: red;
+  color: #82DC8C;
   /* ナビカラー */
 }
 .navbar .dropdown ul {
