@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top:hover {
   background: #6dc4ec;
+  background: red;
   color: #fff;
 }
 .back-to-top.active {
@@ -122,7 +123,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #49b5e7;
+  /* color: #49b5e7; */
+  color: red;
+  /* ナビカラー */
 }
 .navbar .dropdown ul {
   display: block;
@@ -1524,4 +1527,8 @@ section {
   .contact-text-center {
     height: 100vh; /* 全画面表示 */
     position: relative;
+  }
+ 
+  .google-mail-box{
+    text-align: center;
   }
